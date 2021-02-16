@@ -2,7 +2,7 @@
 ### 💰 Sobre o repositório
 Arquivos de configuração e uso da **API** do **PagSeguro** para pagamentos transparentes.
 
-Lembre-se de ler a documentação completa para entender melhor como a API funciona em: https://dev.pagseguro.uol.com.br/](https://dev.pagseguro.uol.com.br/)
+Lembre-se de ler a documentação completa para entender melhor como a API funciona em: [https://dev.pagseguro.uol.com.br/](https://dev.pagseguro.uol.com.br/)
 
 
 ⚠️ **Repositório ainda não testado, podem existir erros que serão corrigidos pós testes**
