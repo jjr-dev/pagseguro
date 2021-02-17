@@ -13,7 +13,7 @@ function generateXML($products, $client, $shipping, $notificationURL) {
   if($client['card']['token']) {
     $method = 'creditCard';
   } else {
-    $method = 'boleto'
+    $method = 'boleto';
   }
   $generatedXml = "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
     <payment>
