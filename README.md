@@ -175,6 +175,7 @@ $client = array(
 ```
 São todos os dados obrigatórios para a geração da cobrança através da API do PagSeguro, eles serão utilizados para geração do XML.
 > Lembrando que o HASH é gerado pelo Script e os outros dados informados pelo próprio usuário.
+> Caso esteja em ambiente de testes, é obrigatório que o Email do usuário seja com @sandbox.pagseguro.com.br.
 
 Os dados de frete serão preenchidos com o endereço informados no array ```$client```.
 
