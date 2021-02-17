@@ -1,4 +1,7 @@
+
 # PagSeguro - API
+![PagSeguro API versão 2](https://img.shields.io/badge/PagSeguro%20API-V2-orange?logo=pagseguro) ![Status: Em testes](https://img.shields.io/badge/Status-Testes-yellow?logo=github)
+
 ## 💰 Sobre o repositório
 Arquivos de configuração e uso da **API** do **PagSeguro** para pagamentos transparentes.
 
@@ -296,9 +299,6 @@ if($_POST['notificationType'] && $_POST['notificationCode']) {
 }
 ```
 Se existir o valor em ```$data``` então basta obter o ```$dataArray['code']``` e ```$dataArray['status']``` e atualizar o status no sistema.
-
-## ⚠️ Status
-**Repositório ainda não testado, podem existir erros que serão corrigidos pós testes**
 
 ## 👋 The End
 Caso encontre erros ou sugestões, sinta-se a vontade para sugerir a correção. 
