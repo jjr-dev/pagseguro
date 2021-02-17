@@ -1,5 +1,5 @@
 <?php
-	require_once('config.php');
+	require_once('configs.php');
 
 	if($_POST['notificationType'] && $_POST['notificationCode']) {
 		$urlPagSeguro		= URL_PAGSEGURO;
