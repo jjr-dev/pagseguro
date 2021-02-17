@@ -237,6 +237,10 @@ $xml = generateXML($products, $client, $shipping, $notificationURL);
 ```
 Assim, o XML será gerado e armazenado em ```$xml```.
 
+#### Nome na cobrança
+Para personalizar o nome que será exibido na fatura do Cartão de Crédito ou no Boleto, altere os valores dentro de ```<dynamicPaymentMethodMessage>``` do arquivo ```generateXML.php```.
+> O nome que será exibido na fatura do Cartão de Crédito deve obrigatóriamente conter NO MÁXIMO 13 caracteres.
+
 #### Efetuar geração da cobrança
 Com o XML gerado, envie-o para a API do PagSeguro através de um cURL e obtenha a resposta do mesmo:
 ```php
@@ -302,6 +306,8 @@ Se existir o valor em ```$data``` então basta obter o ```$dataArray['code']``` 
 
 ## 👋 The End
 Caso encontre erros ou sugestões, sinta-se a vontade para sugerir a correção. 
+
+Veja um exemplo do XML gerado [clicando aqui](https://codebeautify.org/xmlviewer/cbfcb75e).
 
 Lembrando que esse repositório **Não é oficial** e tem o intuito apenas de facilitar o entendimento das ações necessárias para a geração da cobrança, você pode (e deve) ver a [documentação do PagSeguro](https://dev.pagseguro.uol.com.br/) para dúvidas.
 
