@@ -1,5 +1,5 @@
 <?php
-	require_once('config.php');
+	require_once('configs.php');
 
 	$urlPagSeguro		= URL_PAGSEGURO;
 	$emailPagSeguro 	= EMAIL_PAGSEGURO;
