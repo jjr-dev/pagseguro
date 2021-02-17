@@ -1,6 +1,6 @@
 <?php
 	// Requires
-	require_once('config.php');
+	require_once('configs.php');
 	require_once('generateXML.php');
 
 	// Credentials
